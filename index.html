@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ô'Mexico - Authentic Mexican Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Oswald:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="images/Untitled15_20250514004822.png" alt="O'Mexico Logo" class="logo">
+            <h1>O'MEXICO</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home" class="active">HOME</a></li>
+                <li><a href="#menu">MENU</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#contact" class="contact-btn">CONTACT</a></li>
+            </ul>
+        </nav>
+        <div class="mobile-menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <span class="hero-tagline">AUTHENTIC TASTE OF</span>
+                <h1><span class="red-text">O'</span>MEXICO</h1>
+                <div class="separator">
+                    <span class="separator-line"></span>
+                    <i class="fas fa-pepper-hot"></i>
+                    <span class="separator-line"></span>
+                </div>
+                <p>Experience the authentic flavors of Mexico in every bite. Our chefs use traditional recipes and fresh ingredients to bring you the best Mexican cuisine.</p>
+                <div class="hero-buttons">
+                    <a href="#menu" class="btn primary-btn">EXPLORE MENU</a>
+                    <a href="#contact" class="btn secondary-btn">BOOK A TABLE</a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-decoration">
+            <div class="decoration-item decoration-top"><i class="fas fa-utensils"></i></div>
+            <div class="decoration-item decoration-bottom"><i class="fas fa-pepper-hot"></i></div>
+            <div class="decoration-item decoration-right-1"><i class="fas fa-pepper-hot"></i></div>
+            <div class="decoration-item decoration-right-2"><i class="fas fa-utensils"></i></div>
+            <div class="decoration-item decoration-right-3"><i class="fas fa-pizza-slice"></i></div>
+            <div class="decoration-item decoration-right-4"><i class="fas fa-drumstick-bite"></i></div>
+            <div class="decoration-item decoration-right-5"><i class="fas fa-pepper-hot"></i></div>
+            <div class="decoration-item decoration-right-6"><i class="fas fa-wine-glass-alt"></i></div>
+            <div class="decoration-item decoration-right-7"><i class="fas fa-mortar-pestle"></i></div>
+            <div class="decoration-item decoration-right-8"><i class="fas fa-lemon"></i></div>
+        </div>
+    </section>
+
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2>OUR MENU</h2>
+            <div class="menu-categories">
+                <button class="menu-btn active" data-category="all">All</button>
+                <button class="menu-btn" data-category="classic">Classic</button>
+                <button class="menu-btn" data-category="specialty">Specialty</button>
+                <button class="menu-btn" data-category="premium">Premium</button>
+            </div>
+            <div class="menu-items">
+                <!-- Row 1 - Classic Tacos -->
+                <div class="menu-item visible-item" data-category="classic">
+                    <div class="menu-item-content">
+                        <h3>POULET</h3>
+                        <div class="price-options">
+                            <span class="price">35 DHS <small>SIMPLE</small></span>
+                            <span class="price">45 DHS <small>MENU</small></span>
+                        </div>
+                    </div>
+                    <p>Taco with chicken filling, served with fries and drink.</p>
+                </div>
+
+                <div class="menu-item visible-item" data-category="classic">
+                    <div class="menu-item-content">
+                        <h3>VIANDE HACHEE</h3>
+                        <div class="price-options">
+                            <span class="price">35 DHS <small>SIMPLE</small></span>
+                            <span class="price">45 DHS <small>MENU</small></span>
+                        </div>
+                    </div>
+                    <p>Taco with ground meat filling, served with fries and drink.</p>
+                </div>
+
+                <div class="menu-item visible-item" data-category="classic">
+                    <div class="menu-item-content">
+                        <h3>CORDON BLEU</h3>
+                        <div class="price-options">
+                            <span class="price">40 DHS <small>SIMPLE</small></span>
+                            <span class="price">50 DHS <small>MENU</small></span>
+                        </div>
+                    </div>
+                    <p>Taco with cordon bleu filling, served with fries and drink.</p>
+                </div>
+
+                <div class="menu-item visible-item" data-category="classic">
+                    <div class="menu-item-content">
+                        <h3>NUGGETS</h3>
+                        <div class="price-options">
+                            <span class="price">40 DHS <small>SIMPLE</small></span>
+                            <span class="price">50 DHS <small>MENU</small></span>
+                        </div>
+                    </div>
+                    <p>Taco with chicken nuggets filling, served with fries and drink.</p>
+                </div>
+
+                <div class="menu-item visible-item" data-category="classic">
+                    <div class="menu-item-content">
+                        <h3>TENDERS</h3>
+                        <div class="price-options">
+                            <span class="price">40 DHS <small>SIMPLE</small></span>
+                            <span class="price">50 DHS <small>MENU</small></span>
+                        </div>
+                    </div>
+                    <p>Taco with chicken tenders filling, served with fries and drink.</p>
+                </div>
+
+                <div class="menu-item visible-item" data-category="classic">
+                    <div class="menu-item-content">
+                        <h3>MIXTE</h3>
+                        <div class="price-options">
+                            <span class="price">40 DHS <small>SIMPLE</small></span>
+                            <span class="price">50 DHS <small>MENU</small></span>
+                        </div>
+                    </div>
+                    <p>Taco with mixed fillings, served with fries and drink.</p>
+                </div>
+
+                <!-- Row 2 - Specialty Tacos -->
+                <div class="menu-item hidden-item" data-category="specialty">
+                    <div class="special-badge">SPECIALTY</div>
+                    <div class="menu-item-content">
+                        <h3>O'SUPREME</h3>
+                        <div class="price-options">
+                            <span class="price">40 DHS <small>SIMPLE</small></span>
+                            <span class="price">50 DHS <small>MENU</small></span>
+                        </div>
+                    </div>
+                    <p>Poulet + Nuggets - Our special combination taco.</p>
+                </div>
+
+                <div class="menu-item hidden-item" data-category="specialty">
+                    <div class="special-badge">SPECIALTY</div>
+                    <div class="menu-item-content">
+                        <h3>O'GRINGO</h3>
+                        <div class="price-options">
+                            <span class="price">40 DHS <small>SIMPLE</small></span>
+                            <span class="price">50 DHS <small>MENU</small></span>
+                        </div>
+                    </div>
+                    <p>Poulet + Cordon bleu - A delicious fusion taco.</p>
+                </div>
+
+                <div class="menu-item hidden-item" data-category="specialty">
+                    <div class="special-badge">SPECIALTY</div>
+                    <div class="menu-item-content">
+                        <h3>O'YUMMY</h3>
+                        <div class="price-options">
+                            <span class="price">40 DHS <small>SIMPLE</small></span>
+                            <span class="price">50 DHS <small>MENU</small></span>
+                        </div>
+                    </div>
+                    <p>Poulet + Tenders - A tasty combination of chicken varieties.</p>
+                </div>
+
+                <div class="menu-item hidden-item" data-category="specialty">
+                    <div class="menu-item-content">
+                        <h3>O'RIENTAL</h3>
+                        <div class="price-options">
+                            <span class="price">40 DHS <small>SIMPLE</small></span>
+                            <span class="price">50 DHS <small>MENU</small></span>
+                        </div>
+                    </div>
+                    <p>Poulet + Saucisse de poulet - An oriental-inspired taco.</p>
+                </div>
+
+                <div class="menu-item hidden-item" data-category="specialty">
+                    <div class="menu-item-content">
+                        <h3>O'GOURMET</h3>
+                        <div class="price-options">
+                            <span class="price">40 DHS <small>SIMPLE</small></span>
+                            <span class="price">50 DHS <small>MENU</small></span>
+                        </div>
+                    </div>
+                    <p>Viande hachée + Nuggets - A gourmet combination taco.</p>
+                </div>
+
+                <div class="menu-item hidden-item" data-category="specialty">
+                    <div class="menu-item-content">
+                        <h3>O'FRENCHY</h3>
+                        <div class="price-options">
+                            <span class="price">40 DHS <small>SIMPLE</small></span>
+                            <span class="price">50 DHS <small>MENU</small></span>
+                        </div>
+                    </div>
+                    <p>Viande hachée + Cordon bleu - A French-inspired taco.</p>
+                </div>
+
+                <!-- Row 3 - Premium Tacos -->
+                <div class="menu-item hidden-item" data-category="premium">
+                    <div class="popular-tag">POPULAR</div>
+                    <div class="menu-item-content">
+                        <h3>O'SAVOYARD</h3>
+                        <div class="price-options">
+                            <span class="price">40 DHS <small>SIMPLE</small></span>
+                            <span class="price">50 DHS <small>MENU</small></span>
+                        </div>
+                    </div>
+                    <p>Viande hachée + Tenders - A premium meat combination.</p>
+                </div>
+
+                <div class="menu-item hidden-item" data-category="premium">
+                    <div class="menu-item-content">
+                        <h3>O'TEXAS</h3>
+                        <div class="price-options">
+                            <span class="price">40 DHS <small>SIMPLE</small></span>
+                            <span class="price">50 DHS <small>MENU</small></span>
+                        </div>
+                    </div>
+                    <p>Viande hachée + Saucisse de poulet - A Texas-style taco.</p>
+                </div>
+
+                <div class="menu-item hidden-item" data-category="premium">
+                    <div class="menu-item-content">
+                        <h3>O'CROUSTI</h3>
+                        <div class="price-options">
+                            <span class="price">40 DHS <small>SIMPLE</small></span>
+                            <span class="price">50 DHS <small>MENU</small></span>
+                        </div>
+                    </div>
+                    <p>Nuggets + Cordon bleu - A crispy delight taco.</p>
+                </div>
+
+                <div class="menu-item hidden-item featured-item" data-category="premium">
+                    <div class="menu-item-content">
+                        <h3>O'BESTI</h3>
+                        <div class="price-options">
+                            <span class="price">40 DHS <small>SIMPLE</small></span>
+                            <span class="price">50 DHS <small>MENU</small></span>
+                        </div>
+                    </div>
+                    <p>Nuggets + Tenders - Our best-selling chicken taco.</p>
+                </div>
+
+                <div class="menu-item hidden-item" data-category="premium">
+                    <div class="menu-item-content">
+                        <h3>O'REGAL</h3>
+                        <div class="price-options">
+                            <span class="price">40 DHS <small>SIMPLE</small></span>
+                            <span class="price">50 DHS <small>MENU</small></span>
+                        </div>
+                    </div>
+                    <p>Cordon bleu + Tenders - A royal combination taco.</p>
+                </div>
+
+                <div class="menu-item hidden-item" data-category="premium">
+                    <div class="special-badge">SPECIALTY</div>
+                    <div class="menu-item-content">
+                        <h3>O'MEXICO</h3>
+                        <div class="price-options">
+                            <span class="price">55 DHS <small>SIMPLE</small></span>
+                            <span class="price">65 DHS <small>MENU</small></span>
+                        </div>
+                    </div>
+                    <p>Saucisse de poulet + Avocat + Cheddar - Our authentic Mexican taco.</p>
+                </div>
+            </div>
+            <div class="menu-buttons">
+                <button id="view-more-btn" class="view-btn primary-btn">VIEW MORE</button>
+                <button id="view-less-btn" class="view-btn secondary-btn">VIEW LESS</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2>OUR SERVICES</h2>
+            <div class="service-cards">
+                <div class="service-card">
+                    <i class="fas fa-utensils"></i>
+                    <h3>Dine-In</h3>
+                    <p>Enjoy our authentic Mexican atmosphere with full table service.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-truck"></i>
+                    <h3>Delivery</h3>
+                    <p>We deliver our delicious food right to your doorstep.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-shopping-bag"></i>
+                    <h3>Takeout</h3>
+                    <p>Call ahead and pick up your favorite dishes to enjoy at home.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-glass-cheers"></i>
+                    <h3>Catering</h3>
+                    <p>Let us cater your next event with our authentic Mexican cuisine.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>CONTACT US</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>123 Mexican Avenue, Food District, City</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>(123) 456-7890</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>info@omexico.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Hours</h3>
+                            <p>Mon-Thu: 11am-9pm</p>
+                            <p>Fri-Sat: 11am-11pm</p>
+                            <p>Sunday: 12pm-8pm</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-social-container">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fas fa-bicycle"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/Untitled15_20250514004822.png" alt="O'Mexico Logo">
+                    <h3>O'MEXICO</h3>
+                    <p>Authentic Mexican Cuisine</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fas fa-bicycle"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 O'Mexico. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
